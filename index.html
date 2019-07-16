@@ -19,20 +19,22 @@
 		<div class="row m-0 ">
 			<div class="col-6 border p-4">
 				<form autocomplete="off" onsubmit="event.preventDefault();onFormSubmit()">
+				<label class="error d-none" class="validationError ">Email field is required</label>
 				  <div class="form-row">
 					<div class="form-group col-md-6">
 					  <label for="inputEmail4">Full Name</label>
-					  <label class="error d-none" id="validationError ">This field is required</label>
 					  <input type="text" class="form-control" name="fullName" id="fullName" placeholder="Full Name">
 					</div>
 					<div class="form-group col-md-6">
 					  <label for="inputPassword4">Emp Code</label>
+					  
 					  <input type="text" class="form-control" name="empCode" id="empCode" placeholder="Employee Code">
 					</div>
 				  </div>
 				  <div class="form-row">
 				  <div class="form-group col-md-6">
 					<label for="inputAddress">Email</label>
+					
 					<input type="text" class="form-control" name="email" id="email" placeholder="Email Address">
 				  </div>
 					<div class="form-group col-md-6">
